@@ -8,8 +8,8 @@ The images folder is currently not being used. I wanted to provide a simple logo
 
 I will provide some screenshots of the program being ran here. 
 
-![image](https://github.com/kkinsey01/Weather-App/assets/104642932/38d1d46b-03c6-4091-af8f-9d24255bb270)
+![image](https://github.com/kkinsey01/Weather-App/assets/104642932/cbb81486-6a7e-49ce-9cb4-6fbf3a6a42b9)
 
-![image](https://github.com/kkinsey01/Weather-App/assets/104642932/e508e21f-cfbb-41a9-991c-453f891b1737)
+![image](https://github.com/kkinsey01/Weather-App/assets/104642932/9770b8e3-f54b-475d-a696-0f8c86b129b5)
 
 ![image](https://github.com/kkinsey01/Weather-App/assets/104642932/bc80f805-16a5-4dc7-a2fe-90a962aa2d80)
