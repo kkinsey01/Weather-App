@@ -34,19 +34,19 @@ city_label = sg.Text(city_name, enable_events=True, key="-CITY-", font=("Arial",
 
 # get weather group paramater (rain, clouds, clear sky)
 weather_type = weather_data["weather"][0]["main"]
-weather_type_label = sg.Text(f"{weather_type}", enable_events=True, key="-TYPE-", font=("Arial", 18))
+weather_type_label = sg.Text(f"Weather is {weather_type}", enable_events=True, key="-TYPE-", font=("Arial", 18))
 
 # get and display temperature
 temperature_value = weather_data["main"]["temp"]
-temperature_label = sg.Text(f"Temperature is {temperature_value}", key="-TEMP-", font=("Arial", 18))
+temperature_label = sg.Text(f"Temperature is {temperature_value}°F", key="-TEMP-", font=("Arial", 18))
 
 # get and display humidity
 humidity_value = weather_data["main"]["humidity"]
-humidity_label = sg.Text(f"Humidity: {humidity_value}", enable_events=True, key="-HUMIDITY-", font=("Arial", 16))
+humidity_label = sg.Text(f"Humidity: {humidity_value}%", enable_events=True, key="-HUMIDITY-", font=("Arial", 16))
 
 # get and display wind speed
 wind_value = weather_data["wind"]["speed"]
-wind_label = sg.Text(f"Wind Speed: {wind_value}", enable_events=True, key="-WIND-", font=("Arial", 16))
+wind_label = sg.Text(f"Wind Speed: {wind_value} mph", enable_events=True, key="-WIND-", font=("Arial", 16))
 
 # label to give basic instruction for user
 instructional_label = sg.Text("Double click OK to change location after selecting/inputting. Hit Exit to exit", enable_events=False, key="-INSTRUCT-", font=("Arial, 12"))
