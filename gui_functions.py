@@ -15,8 +15,8 @@ def new_location(window, zip):
     # Update the interface with new location data
     window["-CITY-"].update(city_name)
     window["-TYPE-"].update(f"Weather is {weather_type}")
-    window["-TEMP-"].update(f"Temperature is {temperature_value}")
-    window["-HUMIDITY-"].update(f"Humidity: {humidity_value}")
-    window["-WIND-"].update(f"Wind Speed: {wind_value}")
+    window["-TEMP-"].update(f"Temperature is {temperature_value}°F")
+    window["-HUMIDITY-"].update(f"Humidity: {humidity_value}%")
+    window["-WIND-"].update(f"Wind Speed: {wind_value} mph")
 
     
